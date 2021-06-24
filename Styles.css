@@ -20,6 +20,7 @@ main{
 }
 .Header{
     color: #3b3b3b;
+    font-size: 2vw;
     text-decoration: none;
     animation-name: Titlezoom;
     animation-duration: 2s;
@@ -32,13 +33,9 @@ main{
         position: relative;
         top: 20vw;
         left: 35vw;
-
-
     }
-
     100% {
-        width: 100%;
-        height: 100%;
+        font-size: 2vw;
         text-align: left;
         position: relative;
         top: 0vw;
