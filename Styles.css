@@ -14,11 +14,20 @@ main{
     opacity: 100;
 
 }
+.headerlist{
+    display: inline-block;
+    text-decoration: none;
+    color: #3b3b3b;
+}
+.headerlist:hover{
+    color: DarkSalmon;
+}
 #home{
     color: #3b3b3b;
     text-decoration: none;
 }
 .Header{
+    display: inline-block;
     color: #3b3b3b;
     font-size: 2vw;
     text-decoration: none;
