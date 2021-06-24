@@ -109,6 +109,9 @@ main{
         display: block;
         text-align: left;
     }
+    header{
+        font-size: 5vw;
+    }
 }
 @media screen and (min-width:601px){
     .headerlist{
