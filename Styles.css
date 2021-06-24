@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
 @import url(Javascript.js);
 
+
 body{
+
     font-family: Iceland, Arial;
     color: #3b3b3b;
     background: GhostWhite;
 }
 main{
-
+font-size: 80px;
     margin: 0;
-    text-align: center;
+    text-align: left;
     animation-name: mainVisible;
     animation-duration: 3s;
     opacity: 100;
@@ -17,6 +19,8 @@ main{
 }
 .topnav {
     overflow: hidden;
+    animation-name: mainVisible;
+    animation-duration: 3s;
 }
 
 .topnav a {
@@ -90,14 +94,6 @@ main{
 }
 
 @media screen and (max-width: 600px) {
-    .topnav a:not(:first-child) {display: none;}
-    .topnav a.icon {
-        float: right;
-        display: block;
-    }
-}
-
-@media screen and (max-width: 600px) {
     .topnav.responsive {position: relative;}
     .topnav.responsive .icon {
         position: absolute;
@@ -119,3 +115,25 @@ main{
         animation-duration: 3s;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
