@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
 body{
-    font-family: Iceland, arial;
+    font-family: Iceland, Arial;
+    text-decoration-color: palegoldenrod;
     margin: 0;
     background: maroon;
     text-align: center;
