@@ -2,7 +2,7 @@
 @import url(Javascript.js);
 
 p{
-    color: #3b3b3b;
+    color: #FFD8B1;
     text-decoration: none;
     animation-name: mainVisible;
     animation-duration: 2s;
@@ -11,8 +11,8 @@ p{
 
 body{
     font-family: Iceland, Arial;
-    color: #3b3b3b;
-    background: ghostwhite;
+    color: #FFD8B1;
+    background: #610023;
 
 }
 main{
@@ -39,7 +39,7 @@ font-size: 80px;
     display: none;
     width: 32px;
     height: 32px;
-    color: black;
+    color: #FFD8B1;
     animation-name: mainVisible;
     animation-duration: 2s;
 }
@@ -48,6 +48,7 @@ font-size: 80px;
     height: 34px;
     image-orientation: from-image;
     image-orientation: 45deg;
+    color:#C27F79;
 }
 
 
@@ -55,16 +56,16 @@ font-size: 80px;
     font-size: 2vw;
     display: inline-block;
     text-decoration: none;
-    color: #3b3b3b;
+    color: #FFD8B1;
 }
 .headerlist:hover{
-    color: DarkSalmon;
+    color: #C27F79;
 }
 
 .Header{
     z-index: 0;
     display: inline-block;
-    color: #3b3b3b;
+    color: #FFD8B1;
     font-size: 3vw;
     text-decoration: none;
 
