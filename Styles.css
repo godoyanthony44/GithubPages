@@ -1,14 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
 @import url(Javascript.js);
 
-p{
-    color: #FFD8B1;
-    text-decoration: none;
-    animation-name: mainVisible;
-    animation-duration: 2s;
-
-}
-
 body{
     font-family: Iceland, Arial;
     color: #FFD8B1;
@@ -16,7 +8,7 @@ body{
 
 }
 main{
-font-size: 80px;
+font-size: 60px;
     margin: 0;
     text-align: left;
 
@@ -41,8 +33,7 @@ font-size: 80px;
     width: 32px;
     height: 32px;
     filter: invert(80%) sepia(27%) saturate(377%) hue-rotate(341deg) brightness(104%) contrast(102%);
-    animation-name: mainVisible;
-    animation-duration: 2s;
+
 }
 .topnav .icon:hover {
     width: 34px;
@@ -69,24 +60,31 @@ font-size: 80px;
     color: #FFD8B1;
     font-size: 3vw;
     text-decoration: none;
-
-
-
-
 }
 
 @keyframes Titlezoom {
     0% {
         font-size: 5vw;
-        position: relative;
-        top: 20vw;
-        left: 35vw;
+        position: absolute;
+        top: 40%;
+        left: 40%;
+        margin-top: -50px;
+        margin-left: -50px;
     }
+    50%{
+        font-size: 5vw;
+        position: absolute;
+        top: 40%;
+        left: 40%;
+        margin-top: -50px;
+        margin-left: -50px;
+    }
+
     100% {
         font-size: 3vw;
         text-align: left;
-        position: relative;
-        top: -2vw;
+        position: absolute;
+        top: 0vw;
         left: 0vw;
     }
 }
@@ -95,8 +93,14 @@ font-size: 80px;
     0% {
         font-size: 60px;
         position: relative;
-        top: 40vw;
-        left: 5vw;
+        top: 50vw;
+        left: 2vw;
+    }
+    50%{
+        font-size: 60px;
+        position: relative;
+        top: 50vw;
+        left: 2vw;
     }
     100% {
         font-size: 40px;
@@ -108,21 +112,25 @@ font-size: 80px;
 }
 @keyframes mainVisible {
     0%{
-        background-color: transparent;
         opacity: 0%;
     }
     50%{
-        background-color: transparent;
         opacity: 0%;
     }
 
     100%{
-        background-color: transparent;
     opacity: 100%;
     }
 
 }
+p {
+    color: #FFD8B1;
+    display: block;
+    text-decoration: none;
+    animation-name: mainVisible;
+    animation-duration: 2s;
 
+}
 @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
@@ -156,18 +164,55 @@ font-size: 80px;
         top: -6vw;
         left: 0vw;
     }
+    .topnav .icon {
+        display: none;
+        width: 32px;
+        height: 32px;
+        filter: invert(80%) sepia(27%) saturate(377%) hue-rotate(341deg) brightness(104%) contrast(102%);
+        animation-name: mainVisible;
+        animation-duration: 2s;
+    }
+
+    p {
+        color: #FFD8B1;
+        text-decoration: none;
+        animation-name: mainVisible;
+        animation-duration: 2s;
+
+    }
+
 }
 @media screen and (min-width:601px){
     .headerlist{
         animation: mainVisible;
         animation-duration: 3s;
+        position: relative;
+        top: 1vw;
+        left: 70%;
     }
     .Header{
     animation-name: Titlezoom;
     animation-duration:2s;
-        position: relative;
-        top: -2vw;
+        display: inline-block;
+        position: absolute;
+        top: 0vw;
         left: 0vw;
+    }
+    .topnav .icon {
+        display: none;
+        width: 32px;
+        height: 32px;
+        filter: invert(80%) sepia(27%) saturate(377%) hue-rotate(341deg) brightness(104%) contrast(102%);
+        animation-name: mainVisible;
+        animation-duration: 2s;
+    }
+
+    p {
+        color: #FFD8B1;
+        text-decoration: none;
+        animation-name: mainVisible;
+        animation-duration: 2s;
+
     }
 }
 
