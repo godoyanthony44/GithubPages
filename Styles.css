@@ -91,13 +91,15 @@ font-size: 60px;
 
 @keyframes TitlezoomPhone {
     0% {
-        font-size: 60px;
+        font-size: 12vw;
+        white-space: nowrap;
         position: absolute;
         top: 50vw;
         left: 10vw;
     }
     50%{
-        font-size: 60px;
+        font-size: 12vw;
+        white-space: nowrap;
         position: absolute;
         top: 50vw;
         left: 10vw;
