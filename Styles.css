@@ -39,7 +39,7 @@ font-size: 80px;
     display: none;
     width: 32px;
     height: 32px;
-    color: #FFD8B1;
+    filter: invert(80%) sepia(27%) saturate(377%) hue-rotate(341deg) brightness(104%) contrast(102%);
     animation-name: mainVisible;
     animation-duration: 2s;
 }
@@ -48,7 +48,7 @@ font-size: 80px;
     height: 34px;
     image-orientation: from-image;
     image-orientation: 45deg;
-    color:#C27F79;
+    filter: invert(95%) sepia(15%) saturate(4264%) hue-rotate(297deg) brightness(79%) contrast(91%);
 }
 
 
