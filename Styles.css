@@ -126,6 +126,28 @@ font-size: 60px;
 
 }
 p {
+
+    color: #FFD8B1;
+    display: block;
+    white-space: wrap;
+    text-decoration: none;
+    animation-name: mainVisible;
+    animation-duration: 4s;
+
+}
+p1 {
+    font-size: 40px;
+    white-space: wrap;
+    color: #FFD8B1;
+    display: block;
+    text-decoration: none;
+    animation-name: mainVisible;
+    animation-duration: 4s;
+
+}
+p2 {
+    font-size: 20px;
+    white-space: wrap;
     color: #FFD8B1;
     display: block;
     text-decoration: none;
