@@ -22,7 +22,7 @@ font-size: 60px;
     text-align: right;
     text-decoration: none;
     font-size: 20px;
-    padding: 0px 0px;
+    padding: 14px 16px;
 }
 
 .topnav a.active {
@@ -85,7 +85,7 @@ font-size: 60px;
         text-align: left;
         position: absolute;
         top: 0vw;
-        left: 0vw;
+        left: 2vw;
     }
 }
 
@@ -106,7 +106,7 @@ font-size: 60px;
         font-size: 40px;
         text-align: left;
         position: absolute;
-        top: 0vw;
+        top: 2vw;
         left: 4vw;
     }
 }
@@ -128,7 +128,7 @@ p {
     display: block;
     text-decoration: none;
     animation-name: mainVisible;
-    animation-duration: 2s;
+    animation-duration: 4s;
 
 }
 @media screen and (max-width: 600px) {
@@ -175,7 +175,7 @@ p {
         animation-name:TitlezoomPhone;
         animation-duration: 2s;
         position: absolute;
-        top: 0vw;
+        top: 2vw;
         left: 4vw;
     }
     .topnav .icon {
@@ -184,23 +184,27 @@ p {
         height: 32px;
         filter: invert(80%) sepia(27%) saturate(377%) hue-rotate(341deg) brightness(104%) contrast(102%);
         animation-name: mainVisible;
-        animation-duration: 2s;
+        animation-duration: 4s;
     }
 
     p {
         color: #FFD8B1;
         text-decoration: none;
         animation-name: mainVisible;
-        animation-duration: 2s;
+        animation-duration: 4s;
 
     }
 
 }
 @media screen and (min-width:601px){
+
     .headerlist{
         animation: mainVisible;
-        animation-duration: 3s;
+        display: inline-block;
+        animation-duration: 4s;
+
         position: relative;
+        padding: 14px, 16px;
         top: 1vw;
         left: 60%;
     }
@@ -210,7 +214,7 @@ p {
         display: inline-block;
         position: absolute;
         top: 0vw;
-        left: 0vw;
+        left: 2vw;
     }
     .topnav .icon {
         display: none;
@@ -218,14 +222,14 @@ p {
         height: 32px;
         filter: invert(80%) sepia(27%) saturate(377%) hue-rotate(341deg) brightness(104%) contrast(102%);
         animation-name: mainVisible;
-        animation-duration: 2s;
+        animation-duration: 4s;
     }
 
     p {
         color: #FFD8B1;
         text-decoration: none;
         animation-name: mainVisible;
-        animation-duration: 2s;
+        animation-duration: 4s;
 
     }
 }
