@@ -413,6 +413,26 @@ p2 {
 
 
     }
+    #contactcontent a{
+        text-align: left;
+        margin-left: 10%;
+        margin-right: 10%;
+        color: #FFD8B1;
+        text-decoration: none;
+        animation-name: mainVisible;
+        white-space: wrap;
+        animation-duration: 4s;
+    }
+    #contactcontent a:hover{
+        text-align: left;
+        margin-left: 10%;
+        margin-right: 10%;
+        color: #C27F79;
+        text-decoration: none;
+        animation-name: mainVisible;
+        white-space: wrap;
+        animation-duration: 4s;
+    }
 }
 
 
