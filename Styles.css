@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
 @import url(Javascript.js);
 
-html{
-    background: GhostWhite;
-}
 p{
     color: #3b3b3b;
     text-decoration: none;
@@ -15,17 +12,17 @@ p{
 body{
     font-family: Iceland, Arial;
     color: #3b3b3b;
+    background: ghostwhite;
 
 }
 main{
 font-size: 80px;
     margin: 0;
     text-align: left;
-    opacity: 100;
 
 }
 .topnav {
-    overflow: hidden;
+
 }
 
 .topnav a {
@@ -43,12 +40,14 @@ font-size: 80px;
     width: 32px;
     height: 32px;
     color: black;
+    animation-name: mainVisible;
+    animation-duration: 2s;
 }
 .topnav .icon:hover {
     width: 34px;
     height: 34px;
     image-orientation: from-image;
-    image-orientation: 45deg flip;
+    image-orientation: 45deg;
 }
 
 
@@ -63,15 +62,14 @@ font-size: 80px;
 }
 
 .Header{
+    z-index: 0;
     display: inline-block;
     color: #3b3b3b;
     font-size: 3vw;
     text-decoration: none;
-    animation-name: Titlezoom;
-    animation-duration:2s;
-    position: relative;
-    top: -2vw;
-    left: 0vw;
+
+
+
 
 }
 
@@ -90,15 +88,34 @@ font-size: 80px;
         left: 0vw;
     }
 }
+
+@keyframes TitlezoomPhone {
+    0% {
+        font-size: 70px;
+        position: relative;
+        top: 40vw;
+        left: 5vw;
+    }
+    100% {
+        font-size: 40px;
+        text-align: left;
+        position: relative;
+        top: -6vw;
+        left: 0vw;
+    }
+}
 @keyframes mainVisible {
     0%{
+        background-color: transparent;
         opacity: 0%;
     }
     50%{
+        background-color: transparent;
         opacity: 0%;
     }
 
     100%{
+        background-color: transparent;
     opacity: 100%;
     }
 
@@ -109,7 +126,9 @@ font-size: 80px;
     .topnav a.icon {
         float: right;
         display: block;
+
     }
+
 }
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
@@ -120,7 +139,6 @@ font-size: 80px;
         position: absolute;
         right: 0;
         top: 0;
-        rotation: 90deg;
     }
     .topnav.responsive a {
         float: none;
@@ -128,14 +146,26 @@ font-size: 80px;
         text-align: left;
     }
 
-    header{
-        font-size: 10vw;
+    .Header{
+        font-size: 40px;
+        animation-name:TitlezoomPhone;
+        animation-duration: 2s;
+        position: relative;
+        top: -6vw;
+        left: 0vw;
     }
 }
 @media screen and (min-width:601px){
     .headerlist{
         animation: mainVisible;
         animation-duration: 3s;
+    }
+    .Header{
+    animation-name: Titlezoom;
+    animation-duration:2s;
+        position: relative;
+        top: -2vw;
+        left: 0vw;
     }
 }
 
