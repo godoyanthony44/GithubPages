@@ -52,7 +52,9 @@ font-size: 60px;
     filter: invert(95%) sepia(15%) saturate(4264%) hue-rotate(297deg) brightness(79%) contrast(91%);
 }
 
-
+.Header:hover{
+    color: #C27F79;
+}
 .headerlist{
     font-size: 2vw;
     display: inline-block;
