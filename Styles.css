@@ -62,7 +62,16 @@ font-size: 60px;
 .headerlist:hover{
     color: #C27F79;
 }
-
+a{
+    color: #FFD8B1;
+    text-decoration: none;
+}
+a:hover{
+    color: #C27F79;
+    text-decoration: none;
+}
+dd{
+}
 .Header{
     z-index: 0;
     display: inline-block;
