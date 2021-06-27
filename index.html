@@ -22,16 +22,7 @@
 <body>
 
 <header>
-    <script>
-        function myFunction() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-                x.className += " responsive";
-            } else {
-                x.className = "topnav";
-            }
-        }
-    </script>
+
     <a class="active" id = "home" href = "#"><h1 class = "Header">Anthony Godoy</h1></a>
     <div class="topnav" id="myTopnav">
 
@@ -71,6 +62,15 @@
 
 </footer>
 
-
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
 </body>
 </html>
