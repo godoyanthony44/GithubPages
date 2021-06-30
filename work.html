@@ -18,7 +18,27 @@
 </head>
 <body>
 <header>
-    <a class="active" id = "home" href = "index.html"><h1 class = "Header">Anthony Godoy</h1></a>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+    <a class="active" id = "home" href = "#"><h1 class = "Header">Anthony Godoy</h1></a>
+    <div class="topnav" id="myTopnav">
+
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <img src = "bacon-solid.svg" alt="this"></img>
+        </a>
+
+        <a class= "headerlist" id = "storylink" href = "story.html"><h2>About</h2></a>
+        <a class= "headerlist" id = "worklink" href = "work.html"><h2>Work</h2></a>
+        <a class= "headerlist" id = "contactlink" href = "contact.html"><h2>contact</h2></a>
+    </div>
 </header>
 <main>
     <p>Here are some of my projects</p>
