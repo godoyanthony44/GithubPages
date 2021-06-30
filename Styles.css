@@ -63,6 +63,7 @@ font-size: 60px;
 }
 .headerlist:hover{
     color: #C27F79;
+
 }
 a{
     color: #FFD8B1;
@@ -344,11 +345,10 @@ p2 {
         animation: mainVisible;
         display: inline-block;
         animation-duration: 4s;
-
         position: relative;
         padding: 14px, 16px;
         top: -.5vw;
-        left: 70%;
+        left: 80%;
     }
     .Header{
     animation-name: Titlezoom;
@@ -442,6 +442,15 @@ p2 {
         animation-name: mainVisible;
         white-space: wrap;
         animation-duration: 4s;
+    }
+    .headerlist:hover{
+        color: #C27F79;
+font-size: 30px;
+        transition: all 250ms;
+    }
+    .Header:hover{
+        font-size: 4vw;
+        transition: all 250ms;
     }
 }
 

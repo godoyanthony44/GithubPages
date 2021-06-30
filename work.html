@@ -10,25 +10,18 @@
     <link rel = "manifest" href = "site.webmanifest">
     <meta name = "msapplication-TileColor" content = "#48a39c">
     <meta name = "theme-color" content = "#000000">
+    <title>Anthony Godoy</title>
     <meta name = "description" content= "This is a Junior Software Developer's Portfolio Website">
     <link rel="stylesheet" href = "Styles.css">
     <link rel="stylesheet" href="bacon-solid.svg">
     <script type="text/javascript" src = "Javascript.js"></script>
-    <title>Anthony Godoy</title>
+
+
 </head>
 <body>
 <header>
-    <script>
-        function myFunction() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-                x.className += " responsive";
-            } else {
-                x.className = "topnav";
-            }
-        }
-    </script>
-    <a class="active" id = "home" href = "#"><h1 class = "Header">Anthony Godoy</h1></a>
+
+    <a class="active" id = "home" href = "index.html"><h1 class = "Header">Anthony Godoy</h1></a>
     <div class="topnav" id="myTopnav">
 
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -41,13 +34,17 @@
     </div>
 </header>
 <main>
+    <br>
     <p>Here are some of my projects</p>
 
     <p1>Projects:</p1>
     <br>
 <dl>
-
-    <dt><p1><a href = "https://www.anthonygodoy.me">Anthonygodoy.me - June 2021</a></p1></dt>
+    <dt><p1><a href = "https://anthonys-disney-clone-v1.web.app/">Disney Clone - June 29, 2021</a></p1></dt>
+    <dd> <p2>I recreated the Disney App with limited functionality, check it out :)</p2></dd>
+    <br>
+    <br>
+    <dt><p1><a href = "https://www.anthonygodoy.me">Anthonygodoy.me - June 26, 2021</a></p1></dt>
     <dd> <p2>This is my website which I designed specifically for the purpose of showing my portfolio.</p2></dd>
 
 
@@ -56,5 +53,15 @@
 <footer>
 
 </footer>
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
 </body>
 </html>
